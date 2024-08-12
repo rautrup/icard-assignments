@@ -1,0 +1,300 @@
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 7pt solid #205460; /* 1px */
+    overflow: hidden;
+    border-radius: 3px;
+   
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color:white;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-green {
+   
+    left: -41pt;
+    margin-top: -0.69pt;
+    width: 235.775pt;
+    height: 158.5pt;
+    background-color: rgb(161, 219, 210);
+    position: absolute;
+    top: -43pt;
+    border-radius: 0 0 50% 50%;
+    transform: skewX(-20deg);
+    rotate: -20deg;
+
+}
+.id-card-wrapper-front .id-light-green {
+    left: -58pt;
+    margin-top: -0.69pt;
+    width: 236.775pt;
+    height: 147.5pt;
+    background-color: rgb(84 168 140);
+    position: absolute;
+    top: -42pt;
+    border-radius: 0 0 50% 50%;
+    transform: skewX(-31deg);
+    rotate: -20deg;
+}
+.id-card-wrapper-front .id-rect-green{
+    left: 0pt;
+    margin-top: -0.69pt;
+    width: 167.775pt;
+    height: 10.5pt;
+    background-color: rgb(81 169 150);
+    position: absolute;
+    top: 228pt;
+
+}
+    
+
+.org-name1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    position: absolute;
+    top: 4mm;
+    left: 18mm;
+    height: 20px;
+    width: 20px;
+    color: #2cfbfb;
+  
+}
+.org-name2{
+    font-family: serif;
+    font-size: 17px;
+    position: absolute;
+    top: 11mm;
+    left: 17mm;
+    height: 22px;
+    width: 20px;
+    
+}
+.org-logo img{
+    position: absolute;
+    margin-top: -84mm;
+    margin-left: 4mm;
+    height: 18%;
+    width: 28%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.user-photo {
+    position: absolute;
+    left: 52.5pt;
+    top: 15.5pt;
+    height: 23mm;
+    width: 22mm;
+    border-radius: 10px;
+}
+.barcode{
+    position: absolute;
+    left: 37.5pt;
+    top: 49mm;
+    height: 94px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+
+.user-name {
+    font-size: 6mm;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 45mm;
+    left: 15mm;
+    color: #020202;
+}
+
+.id-number{
+    font-size: 12.8333px;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 55mm;
+    left: 14mm;
+
+}
+.id-email{
+    font-size: 12.8333px;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 60mm;
+    left: 14mm;
+}
+.id-phone{
+    font-size: 12.8333px;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 65mm;
+    left: 14mm;
+
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
+    background-color: #ffffff;
+    border: 7pt solid #205460;
+    overflow: hidden;
+    left: 190.5pt;
+    top: -265.75pt;
+    border-radius: 3px;
+    
+}
+.id-card-wrapper-back .id-card-background {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-green {
+    left: -19pt;
+    margin-top: -0.69pt;
+    width: 293.775pt;
+    height: 147.5pt;
+    background-color: rgb(161, 219, 210);
+    position: absolute;
+    top: -123pt;
+    border-radius: 0 0 17% 57%;
+    transform: skewX(-40deg);
+    rotate: -20deg;
+}
+.id-card-wrapper-back .id-green2 {
+    left: -38pt;
+    margin-top: -0.69pt;
+    width: 235.775pt;
+    height: 158.5pt;
+    background-color: rgb(84 168 140);
+    position: absolute;
+    top: -127pt;
+    border-radius: 0 0 50% 50%;
+    transform: skewX(-20deg);
+    rotate: -10deg;
+
+}
+.id-card-wrapper-back .id-green-bottom{
+    left: 0pt;
+    margin-top: -0.69pt;
+    width: 167.775pt;
+    height: 10.5pt;
+    background-color: rgb(81 169 150);
+    position: absolute;
+    top: 228pt;
+}
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt; /* 8px */
+}
+
+.org-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    position: absolute;
+    top: 18mm;
+    left: 20mm;
+    height: 20px;
+    width: 20px;
+    color: #0bd8d8;
+}
+.org-name3{
+    font-family: serif;
+    font-size: 16px;
+    position: absolute;
+    top: 26mm;
+    left: 19mm;
+    height: 22px;
+    width: 20px;
+}
+.id-policy{
+    font-family: serif;
+    font-size: 4.5mm;
+    position: absolute;
+    top: 38mm;
+    left: 6mm;
+    text-align: center;
+
+}
+
+.terms{
+    font-family: serif;
+    font-size: 11px;
+    position: absolute;
+    top: 45mm;
+    left: 7mm;
+    text-align: left;
+
+
+}
+.authorised{
+    font-family: serif;
+    font-size: 11px;
+    position: absolute;
+    top: 56mm;
+    left: 7mm;
+    text-align: left;
+
+}
+.date{
+    font-size: 11.8333px;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 69mm;
+    left: 14mm;
+    
+    
+
+}
+.date2{
+    font-size: 10.8333px;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 73mm;
+    left: 14mm;
+
+}
+.org-logo2 img{
+    position: absolute;
+    margin-top: 11mm;
+    margin-left: 2mm;
+    height: 24%;
+    width: 38%;
+    
+
+}
+
+
+
+
+
+
+
+
+
